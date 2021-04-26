@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1512.4923059783357" y="887.5">exceptions.EmptyArgumentException</node>
+    <node x="867.1935897435899" y="809.0">client.utility.TypeOfCommand</node>
+    <node x="144.19358974358988" y="853.0">common.Response</node>
+    <node x="156.0614233805411" y="1496.0">client.Client</node>
+    <node x="2230.1697567138744" y="423.0">exceptions.IncorrectValueException</node>
+    <node x="1139.7252605237902" y="256.0">common.data.Flat</node>
+    <node x="1132.0919271904568" y="11.5">common.data.Furnish</node>
+    <node x="2078.4197567138744" y="0.0">common.data.Coordinates</node>
+    <node x="202.41666666666674" y="366.5">common.ResponseCode</node>
+    <node x="1868.4197567138744" y="11.0">common.data.House</node>
+    <node x="1200.5447567138744" y="1225.0">client.utility.Console</node>
+    <node x="1113.1935897435899" y="887.5">exceptions.IncorrectInputInScriptException</node>
+    <node x="1756.4923059783357" y="720.0">client.utility.Creator</node>
+    <node x="0.0" y="1315.5">exceptions.ConnectionException</node>
+    <node x="392.1935897435899" y="809.0">common.Request</node>
+    <node x="1358.0447567138744" y="1866.0">client.App</node>
+    <node x="930.0919271904569" y="11.5">common.data.Transport</node>
+    <node x="607.1935897435899" y="887.5">exceptions.ScriptRecursionException</node>
+    <node x="0.0" y="1965.0">exceptions.KeyException</node>
+    <node x="1450.1752605237903" y="0.5">common.data.View</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="client.utility.Creator" target="exceptions.IncorrectValueException">
+      <point x="77.4545454545455" y="-182.5" />
+      <point x="1940.4468514328812" y="690.0" />
+      <point x="2259.1697567138744" y="690.0" />
+      <point x="-87.0" y="15.0" />
+    </edge>
+    <edge source="common.data.Flat" target="common.data.Transport">
+      <point x="-237.60000000000014" y="-182.0" />
+      <point x="1166.12526052379" y="226.0" />
+      <point x="1021.0919271904569" y="226.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="client.Client" target="client.utility.Console">
+      <point x="64.57142857142856" y="-160.0" />
+      <point x="333.63285195196954" y="1466.0" />
+      <point x="1239.0447567138744" y="1466.0" />
+      <point x="-115.5" y="105.5" />
+    </edge>
+    <edge source="client.utility.Console" target="common.ResponseCode">
+      <point x="-108.70588235294122" y="-105.5" />
+      <point x="1245.8388743609332" y="1175.0" />
+      <point x="381.6935897435899" y="1175.0" />
+      <point x="381.6935897435899" y="700.0" />
+      <point x="378.25" y="700.0" />
+      <point x="70.33333333333326" y="71.5" />
+    </edge>
+    <edge source="common.data.Flat" target="common.data.House">
+      <point x="79.20000000000005" y="-182.0" />
+      <point x="1482.9252605237903" y="206.0" />
+      <point x="1892.1697567138744" y="206.0" />
+      <point x="-71.25" y="72.0" />
+    </edge>
+    <edge source="common.data.Flat" target="common.data.Coordinates">
+      <point x="184.79999999999995" y="-182.0" />
+      <point x="1588.5252605237902" y="226.0" />
+      <point x="2101.0447567138744" y="226.0" />
+      <point x="-67.875" y="83.0" />
+    </edge>
+    <edge source="client.utility.Console" target="exceptions.ScriptRecursionException">
+      <point x="-54.35294117647061" y="-105.5" />
+      <point x="1300.1918155374037" y="1145.0" />
+      <point x="667.1935897435899" y="1145.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="client.utility.Console" target="common.Response">
+      <point x="-144.9411764705883" y="-105.5" />
+      <point x="1209.6035802432862" y="1195.0" />
+      <point x="286.0685897435899" y="1195.0" />
+      <point x="28.375" y="49.5" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.House">
+      <point x="0.0" y="-182.5" />
+      <point x="1862.9923059783357" y="650.0" />
+      <point x="2005.4197567138744" y="650.0" />
+      <point x="2005.4197567138744" y="216.0" />
+      <point x="1987.1697567138744" y="216.0" />
+      <point x="23.75" y="72.0" />
+    </edge>
+    <edge source="client.App" target="client.Client">
+      <point x="-61.25" y="-27.0" />
+      <point x="1370.2947567138744" y="1846.0" />
+      <point x="212.5614233805411" y="1846.0" />
+      <point x="-56.5" y="160.0" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.Coordinates">
+      <point x="38.72727272727269" y="-182.5" />
+      <point x="1901.7195787056085" y="670.0" />
+      <point x="2208.6697567138744" y="670.0" />
+      <point x="2208.6697567138744" y="236.0" />
+      <point x="2191.5447567138744" y="236.0" />
+      <point x="22.625" y="83.0" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.Furnish">
+      <point x="-77.4545454545455" y="-182.5" />
+      <point x="1785.5377605237902" y="670.0" />
+      <point x="1129.2252605237902" y="670.0" />
+      <point x="1129.2252605237902" y="236.0" />
+      <point x="1160.2585938571237" y="236.0" />
+      <point x="-56.33333333333326" y="71.5" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.Flat">
+      <point x="-58.09090909090901" y="-182.5" />
+      <point x="1804.9013968874267" y="660.0" />
+      <point x="1509.3252605237903" y="660.0" />
+      <point x="105.60000000000014" y="182.0" />
+    </edge>
+    <edge source="common.Request" target="common.data.Flat">
+      <point x="-48.75" y="-93.5" />
+      <point x="440.9435897435899" y="690.0" />
+      <point x="1192.5252605237902" y="690.0" />
+      <point x="-211.20000000000005" y="182.0" />
+    </edge>
+    <edge source="client.Client" target="common.Response">
+      <point x="0.0" y="-160.0" />
+      <point x="269.0614233805411" y="1466.0" />
+      <point x="221.5" y="1466.0" />
+      <point x="221.5" y="1205.0" />
+      <point x="229.31858974358988" y="1205.0" />
+      <point x="-28.375" y="49.5" />
+    </edge>
+    <edge source="client.utility.Console" target="exceptions.IncorrectInputInScriptException">
+      <point x="0.0" y="-105.5" />
+      <point x="1354.5447567138744" y="1115.0" />
+      <point x="1187.1935897435899" y="1115.0" />
+      <point x="-74.0" y="15.0" />
+    </edge>
+    <edge source="client.utility.Console" target="client.utility.Creator">
+      <point x="90.58823529411757" y="-105.5" />
+      <point x="1445.132992007992" y="1175.0" />
+      <point x="1783.1173059783357" y="1175.0" />
+      <point x="-79.875" y="182.5" />
+    </edge>
+    <edge source="client.utility.Console" target="common.data.Flat">
+      <point x="36.23529411764707" y="-105.5" />
+      <point x="1390.7800508315215" y="1145.0" />
+      <point x="1419.6935897435899" y="1145.0" />
+      <point x="1419.6935897435899" y="700.0" />
+      <point x="1403.7252605237902" y="700.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="client.Client" target="exceptions.ConnectionException">
+      <point x="-96.85714285714283" y="-160.0" />
+      <point x="172.2042805233982" y="1476.0" />
+      <point x="50.0" y="1476.0" />
+      <point x="-50.0" y="15.0" />
+    </edge>
+    <edge source="common.data.Flat" target="common.data.Furnish">
+      <point x="-132.0" y="-182.0" />
+      <point x="1271.7252605237902" y="206.0" />
+      <point x="1216.5919271904568" y="206.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="client.utility.Console" target="common.Request">
+      <point x="-90.58823529411768" y="-105.5" />
+      <point x="1263.9565214197567" y="1165.0" />
+      <point x="489.6935897435899" y="1165.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.Transport">
+      <point x="-96.81818181818176" y="-182.5" />
+      <point x="1766.174124160154" y="680.0" />
+      <point x="1023.8085938571235" y="680.0" />
+      <point x="1023.8085938571235" y="236.0" />
+      <point x="960.4252605237903" y="236.0" />
+      <point x="-60.66666666666663" y="71.5" />
+    </edge>
+    <edge source="client.App" target="client.utility.Console">
+      <point x="12.25" y="-27.0" />
+      <point x="1443.7947567138744" y="1846.0" />
+      <point x="1437.0447567138744" y="1846.0" />
+      <point x="1437.0447567138744" y="1476.0" />
+      <point x="1470.0447567138744" y="1476.0" />
+      <point x="115.5" y="105.5" />
+    </edge>
+    <edge source="client.utility.Creator" target="common.data.View">
+      <point x="-19.36363636363626" y="-182.5" />
+      <point x="1843.6286696146994" y="640.0" />
+      <point x="1678.2252605237902" y="640.0" />
+      <point x="1678.2252605237902" y="196.0" />
+      <point x="1580.1752605237903" y="196.0" />
+      <point x="52.0" y="82.5" />
+    </edge>
+    <edge source="client.utility.Console" target="exceptions.IncorrectValueException">
+      <point x="144.9411764705883" y="-105.5" />
+      <point x="1499.4859331844627" y="1205.0" />
+      <point x="2409.6697567138744" y="1205.0" />
+      <point x="2409.6697567138744" y="700.0" />
+      <point x="2433.1697567138744" y="700.0" />
+      <point x="87.0" y="15.0" />
+    </edge>
+    <edge source="client.utility.Console" target="client.utility.TypeOfCommand">
+      <point x="-18.11764705882365" y="-105.5" />
+      <point x="1336.4271096550508" y="1125.0" />
+      <point x="980.1935897435899" y="1125.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="common.Response" target="common.ResponseCode">
+      <point x="-56.75" y="-49.5" />
+      <point x="200.94358974358988" y="700.0" />
+      <point x="237.58333333333348" y="700.0" />
+      <point x="-70.33333333333333" y="71.5" />
+    </edge>
+    <edge source="client.utility.Console" target="exceptions.EmptyArgumentException">
+      <point x="54.352941176470495" y="-105.5" />
+      <point x="1408.897697890345" y="1155.0" />
+      <point x="1568.4923059783357" y="1155.0" />
+      <point x="-56.0" y="15.0" />
+    </edge>
+    <edge source="client.App" target="client.utility.Creator">
+      <point x="61.25" y="-27.0" />
+      <point x="1492.7947567138744" y="1846.0" />
+      <point x="2030.504672288496" y="1846.0" />
+      <point x="2030.504672288496" y="1175.0" />
+      <point x="1942.8673059783357" y="1175.0" />
+      <point x="79.87499999999994" y="182.5" />
+    </edge>
+    <edge source="common.data.Flat" target="common.data.View">
+      <point x="-26.40000000000009" y="-182.0" />
+      <point x="1377.3252605237901" y="186.0" />
+      <point x="1476.1752605237903" y="186.0" />
+      <point x="-52.0" y="82.5" />
+    </edge>
+    <edge source="client.Client" target="common.Request">
+      <point x="32.28571428571422" y="-160.0" />
+      <point x="301.3471376662553" y="1456.0" />
+      <point x="592.0447567138744" y="1456.0" />
+      <point x="592.0447567138744" y="1205.0" />
+      <point x="424.6935897435899" y="1205.0" />
+      <point x="-65.0" y="93.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="656.3333333333326" y="583.9999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
